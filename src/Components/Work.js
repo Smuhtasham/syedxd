@@ -5,7 +5,7 @@ export default function Work() {
     <>
       <div className=" bg-[#11071F] relative py-10">
         <img
-          className="absolute left-[32%] top-1 w-[500px]"
+          className="absolute left-[32%] top-8 w-[500px]"
           src="herogradient2.svg"
           alt=""
         />
@@ -31,7 +31,7 @@ export default function Work() {
             </div>
             <div className="flex px-12 gap-4 py-8 items-center rounded-3xl bg-gradient-to-br from-[#2C1250] from-20% via-purple-900 to-[#2C1250] to-70%">
               <div>
-                <img src="grid1.svg" alt="" />
+                <img src="grid2.svg" alt="" />
               </div>
               <div className="flex flex-col">
                 <p className="text-xl font-bold">
@@ -46,7 +46,7 @@ export default function Work() {
             </div>
             <div className="flex px-12 gap-4 py-8 items-center rounded-3xl bg-gradient-to-br from-[#2C1250] from-20% via-purple-900 to-[#2C1250] to-70%">
               <div>
-                <img src="grid1.svg" alt="" />
+                <img src="grid3.svg" alt="" />
               </div>
               <div className="flex flex-col">
                 <p className="text-xl font-bold">
@@ -61,7 +61,7 @@ export default function Work() {
             </div>
             <div className="flex px-12 gap-4 py-8 items-center rounded-3xl bg-gradient-to-tr from-[#2C1250] from-20% via-purple-900 to-[#2C1250] to-70%">
               <div>
-                <img src="grid1.svg" alt="" />
+                <img src="grid4.svg" alt="" />
               </div>
               <div className="flex flex-col">
                 <p className="text-xl font-bold">
