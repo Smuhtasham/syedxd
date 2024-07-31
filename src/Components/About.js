@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className=" bg-[#11071F]">
         <div className="w-[90%] m-auto flex ">
-        <div className="flex flex-col text-white w-[650px]">
+        <div className="flex flex-col text-white w-[650px] gap-2">
         <p className="pt-10 font-semibold text-3xl">About Me</p>
           <p>
             I am a passionate web developer with a strong foundation in computer

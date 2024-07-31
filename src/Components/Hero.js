@@ -18,7 +18,7 @@ export default function Hero() {
                 Judges a book by its{" "}
                 <span className="text-[#7127BA]">cover</span>...
               </span>
-              <span className="text-sm py-2">
+              <span className="text-[12px] py-2">
                 Because if the cover does not impress you what else can?
               </span>
             </div>
@@ -28,8 +28,8 @@ export default function Hero() {
             <div>
               <p className="text-5xl">I'm a Software Engineer.|</p>
               <p className="py-2">
-                Currently, I'm a Software Engineer at{" "}
-                <span className="text-blue-700">Coderarcle</span>
+                Currently, I'm a Front-end Developer at{" "}
+                <span className="text-blue-600">Coderarcle.</span>
               </p>
               <div className="w-[600px]">
                 <p className=" pt-6">
