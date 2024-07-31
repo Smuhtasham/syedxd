@@ -3,8 +3,9 @@ import React from "react";
 export default function About() {
   return (
     <>
-      <div className=" bg-[#11071F]">
-        <div className="w-[90%] m-auto flex ">
+      <div className=" bg-[#11071F] relative">
+      <img className="w-[600px] absolute left-[54%] bottom-6 !z-[0]" src="herogradient2.svg" alt="" />
+        <div className="w-[90%] m-auto flex py-10 ">
         <div className="flex flex-col text-white w-[650px] gap-2">
         <p className="pt-10 font-semibold text-3xl">About Me</p>
           <p>
@@ -35,8 +36,8 @@ export default function About() {
             including component-based architecture and state management.
           </p>
         </div>
-        <div>
-          <img className="pl-48 pt-2" src="profile.png" alt="" />
+        <div className="z-10">
+          <img className="pl-28 pt-2 " src="profile.png" alt="" />
         </div>
       </div>
       </div>
