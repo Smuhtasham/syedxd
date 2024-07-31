@@ -5,7 +5,7 @@ export default function Work() {
     <>
       <div className=" bg-[#11071F] relative py-10">
         <img
-          className="absolute left-[32%] top-8 w-[500px]"
+          className="absolute left-[32%] top-8 w-[500px] animate-pulse"
           src="herogradient2.svg"
           alt=""
         />

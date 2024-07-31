@@ -5,7 +5,7 @@ export default function Hero() {
     <>
       <div className="bg-[#11071F] z-10 relative overflow-hidden">
       <img className="absolute right-[1000px] !z-[0]" src="herogradient.svg" alt="" />
-      <img className="w-[900px] absolute left-[1050px] bottom-1 !z-[0]" src="herogradient2.svg" alt="" />
+      <img className="w-[900px] absolute left-[1050px] bottom-1 !z-[0] animate-pulse" src="herogradient2.svg" alt="" />
         <div className="w-[90%] m-auto flex flex-col text-white py-10">
           <div className="pl-48">
             Hello! I Am <span className="text-[#7127BA] font-bold">Syed Muhtasham</span>
