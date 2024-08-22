@@ -5,12 +5,12 @@ export default function About() {
     <>
       <div className=" bg-[#11071F] relative">
         <img
-          className="w-[600px] absolute left-[54%] bottom-6 !z-[0]"
+          className="w-[550px] absolute left-[54%] bottom-6 !z-[0]"
           src="herogradient2.svg"
           alt=""
         />
         <div className="w-[90%] m-auto flex py-10 ">
-          <div className="flex flex-col text-white w-[650px] gap-2">
+          <div className="flex flex-col text-white w-[600px] gap-2">
             <p className="pt-10 font-semibold text-3xl">About Me</p>
             <p>
               I am a passionate web developer with a strong foundation in
@@ -55,8 +55,8 @@ export default function About() {
               applications.
             </p>
           </div>
-          <div className="z-10">
-            <img className="pl-28 pt-2 " src="profile.png" alt="" />
+          <div className="z-10 ">
+            <img className="pl-40 pt-16 flex  " src="profile.png" alt="" />
           </div>
         </div>
       </div>

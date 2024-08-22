@@ -4,15 +4,18 @@ export default function Hero() {
   return (
     <>
       <div className="bg-[#11071F] z-10 relative overflow-hidden">
-      <img className="absolute right-[1000px] !z-[0]" src="herogradient.svg" alt="" />
-      <img className="w-[900px] absolute left-[1050px] bottom-1 !z-[0] animate-pulse" src="herogradient2.svg" alt="" />
-        <div className="w-[90%] m-auto flex flex-col text-white py-10">
+      
+      <div className="w-[90%] m-auto flex flex-col text-white py-10">
+        
+        <img className="w-[900px] absolute left-[70%] bottom-1 !z-[0] animate-pulse" src="herogradient2.svg" alt="" />
+        
           <div className="pl-48">
             Hello! I Am <span className="text-[#7127BA] font-bold">Syed Muhtasham</span>
           </div>
           <div className="flex py-4 z-10">
-            <div className="">
-              <img className="w-[200px] pt-6" src="Me.svg" alt="" />{" "}
+            <div className="flex relative">
+              <img className="w-[200px] pt-6 !z-10" src="Me.svg" alt="" />{" "}
+              <img className="absolute !z-[0]" src="herogradient.svg" alt="" />
             </div>
             <div className="flex flex-col w-[400px] py-10 px-5">
               <span className="">A Developer who</span>
