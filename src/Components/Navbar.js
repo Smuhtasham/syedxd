@@ -5,7 +5,7 @@ export default function Navbar() {
     <>
     <div className=' bg-[#1A0B2E]'>
         <div className='w-[90%] m-auto flex justify-between items-center py-4'>
-            <img className='w-[30px] cursor-pointer' src="logo.png" alt="" />
+            <img className='w-[30px] cursor-pointer' src="Logo.png" alt="" />
             <ul className='flex gap-12 text-white cursor-pointer text-base'>
                 <li>Home</li>
                 <li>About</li>
